@@ -7,7 +7,7 @@
 
 ## Installation
 
-ng8-breadcrumb is available on NPM with name ```ng8-breadcrumb```
+```ng8-breadcrumb``` is available on NPM 
 
 ```bash
 $ npm install ng8-breadcrumb --save
