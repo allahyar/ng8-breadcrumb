@@ -32,14 +32,14 @@ import {NgxBreadcrumbModule} from 'ng8-breadcrumb';
 })
 export class AppModule {}
 ```
-&
+& Anywhere template component :
 ```
 <ng8-breadcrumb></ng8-breadcrumb>
 ```
 
 And finally use the service :
 ```
- constructor(private _breadcrumb: NgxBreadcrumbService) {
+ constructor(private _breadcrumb: BreadcrumbService) {
     _breadcrumb.store('id', 'iPhone x');
   }
 ```
