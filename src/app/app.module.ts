@@ -4,8 +4,8 @@ import {NgModule} from '@angular/core';
 import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';
 import {HomeComponent} from './home/home.component';
-import {NgxBreadcrumbModule} from 'ngx-breadcrumb';
-import { NotFoundComponent } from './not-found/not-found.component';
+import {NotFoundComponent} from './not-found/not-found.component';
+import {Ng8BreadcrumbModule} from 'ng8-breadcrumb';
 
 @NgModule({
   declarations: [
@@ -16,7 +16,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgxBreadcrumbModule.forRoot({
+    Ng8BreadcrumbModule.forRoot({
       prefix: 'Home'
     })
   ],

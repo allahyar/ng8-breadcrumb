@@ -1,12 +1,12 @@
 import {Component, OnInit} from '@angular/core';
-import {NgxBreadcrumbService} from 'ngx-breadcrumb';
+import {BreadcrumbService} from 'ng8-breadcrumb';
 
 @Component({
   templateUrl: './product-detail.component.html'
 })
 export class ProductDetailComponent implements OnInit {
 
-  constructor(private _breadcrumb: NgxBreadcrumbService) {
+  constructor(private _breadcrumb: BreadcrumbService) {
     _breadcrumb.store('id', 'Mi-8-Lite');
   }
 
