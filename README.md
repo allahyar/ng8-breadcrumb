@@ -18,12 +18,12 @@ $ npm install ng8-breadcrumb --save
 Once the module has been installed, you need to include `Ng8BreadcrumbModule` into your root module:
 
 ```ts
-import {NgxBreadcrumbModule} from 'ng8-breadcrumb';
+import {Ng8BreadcrumbModule} from 'ng8-breadcrumb';
 ...
 @NgModule({
   imports: [
     ...
-    NgxBreadcrumbModule.forRoot({
+    Ng8BreadcrumbModule.forRoot({
         prefix: 'Home' // default 'false'
     }),
     ...
