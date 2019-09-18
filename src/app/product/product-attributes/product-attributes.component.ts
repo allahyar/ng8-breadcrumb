@@ -7,7 +7,7 @@ import {BreadcrumbService} from 'ng8-breadcrumb';
 export class ProductAttributesComponent implements OnInit {
 
   constructor(private _breadcrumb: BreadcrumbService) {
-    _breadcrumb.store('id', 'Mi-8-Lite');
+    _breadcrumb.store('id', 'iPhone X');
   }
 
   ngOnInit() {
