@@ -15,7 +15,7 @@ $ npm install ng8-breadcrumb --save
 
 ## Setup & Usage
 
-Once the module has been installed, you need to include `NgxBreadcrumbModule` into your root module:
+Once the module has been installed, you need to include `Ng8BreadcrumbModule` into your root module:
 
 ```ts
 import {NgxBreadcrumbModule} from 'ng8-breadcrumb';
