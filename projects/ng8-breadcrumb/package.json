@@ -1,6 +1,6 @@
 {
   "name": "ng8-breadcrumb",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "license": "MIT",
   "description": "ng8-breadcrumb is an Angular 8 module generating breadcrumbs based on the routing state.",
   "author": {
