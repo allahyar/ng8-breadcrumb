@@ -37,11 +37,21 @@ export class AppModule {}
 <ng8-breadcrumb></ng8-breadcrumb>
 ```
 
-And finally use the service :
+Use in the service :
 ```
  constructor(private _breadcrumb: BreadcrumbService) {
     _breadcrumb.store('id', 'iPhone x');
   }
+```
+
+And finally route configuration:
+``` 
+{
+        path: '...',
+        ...
+        data: { breadcrumb: 'YOUR TEXT' },
+        ...
+}
 ```
 
 ## License
