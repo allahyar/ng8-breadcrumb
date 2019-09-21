@@ -84,6 +84,7 @@ export class BreadcrumbService {
 
 
   push(label: string, key: string, url: string) {
+    if (label === '') return;
     const breadcrumb = {key, label, url};
     const newBreadcrumbs = [...this.crumbsValue, breadcrumb];
     this.breadcrumbs$.next(newBreadcrumbs);
