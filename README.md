@@ -37,7 +37,7 @@ export class AppModule {}
 <ng8-breadcrumb></ng8-breadcrumb>
 ```
 
-Use in the service :
+Use the service :
 ```
  constructor(private _breadcrumb: BreadcrumbService) {
     _breadcrumb.store('id', 'iPhone x');
